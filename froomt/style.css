@@ -1,0 +1,28 @@
+.hero{
+    background-image: url("https://1.bp.blogspot.com/-k6YHsdBim8A/U3Tx5GFbXYI/AAAAAAACMqQ/BMgDHUHbkZs/s1600/imagenes-gratis-para-ver-y-compartir-en-facebook-y-google+-fotos-free-photos-to-share+(16).jpg");
+    background-position: center;
+    color: rgb(243, 240, 243);
+    text-shadow: 2px, 2px, 2px black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 4rem;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.card img{
+    height: 380px;
+    object-fit: cover;
+}
