@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>🕹️Universo Gamer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">🎮🕹️VideoGames</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#News">News</a>
+                        >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Resenas">Reseñas</a>
+                        >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#TopJuegos">Top juegos</a>
+                        >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Entrevistas">Entrevistas</a>
+                        >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Suscribete">Suscribete</a>
+                        >
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#FAQ">FAQ</a>
+                        >
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-video">
+        <video autoplay loop muted playsinline class="w-100 bg-video">
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/webm">
+        </video>
+        <div class="hero-content">
+            <h1>Explora el universo gamer</h1>
+            <p>Noticias, lanzamientos y más</p>
+            <a href="" class="btn btn-lg bg-light"> Ver novedades</a>
+        </div>
+
+    </header>
+
+    <section id="News" class="bg-dark">
+        <div class="container">
+            <h2 class="section-title"> 📰Noticias Destacadas</h2>
+            <div class="row">
+
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100 text-white border-0">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSExMWFRUXGBcWGBcVFxcVFhYVFxUXFhUXFRcYHSggGBolHRcYITEhJSkrLjAuFyAzODMtNygtLisBCgoKDg0OGxAQGi0lICYvNS4uLS0tLS0tLS0tKzAtLS4tLS0tLS0tLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLf/AABEIALABHwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAAAwQFBgcCAQj/xABJEAACAQIDBQMHCAkDAwMFAAABAgMAEQQSIQUGMUFREyJhMlJxgZGh0gcUFkJTcpKxIzNik6OywdHwQ3PxJKLhdIKzFSU1VJT/xAAbAQABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EADURAAICAQEFBgMHBAMAAAAAAAABAhEDBAUSITFBFBVRYZHRE4GxMjNScaHB4QYiJDQWQvD/2gAMAwEAAhEDEQA/AEZL8reg8/XypFcat7NdT0P96dUx2iF7tzY35C5tfWs1Ho024q0WjdXZ0kjiVWKop8oW73VRyI61eYxl4aejh7KgdhbRhXD5gbIAMijja1rAekG56ml02iWId2EaXsq82PieJ9A9dauPDuRo4PaGrnqczlJVXCvccbb2BHOjsqhZrXuNAxHnePK9Z0Ogqxb7byx4aL9E/wD1B7oVRc2N82fiBpyOt7aVYt0dndjCGkULK4zMB9S40jB8Oeupv4VDlwbztcC7odrS0uNxknLwKKuzJyLiGS3XI1vypsVINiCD0PGtamg7TyW0HHnc9PV/WoyfAR9rGCAz5tNNRZST6rfmKilpuHBlvH/ULb/vh6GcWoq+7W2Lgw2ZwydezIAZuShSD3j4W6mqPimQsSilV5AnMbeJ61XnjcOZsaPaENV9lPhzEqKKBTC+FFFFABRRRQB5UXit4cNG5RpLMNCArNY9LgWpLebbHYR2X9Y+i/sjmx9HLx9dZ6TVnDg31cjC2ntd6eax4qb630NC+lOE+0P4JPho+lOE+0P4H+Gs9oFT9lgZff8AqfCPo/c0L6U4T7Q/gf4aPpThPtD+B/hrPsp6V5ajssA7/wBT4R9H7mhfSnCfaH8D/DR9KcJ9ofwP8NZ9lPQ14RR2WAd/6nwj6P3NC+lOE+0P4H+Gj6U4T7Q/gf4az2ijssA7/wBT4R9H7mhfSnCfaH8D/DR9KcJ9ofwP8NZ7RR2WAf8AINT4R9H7mhfSnC/aH8D/AA0fSnCfaH8Enw1ntFHZYB3/AKnwj6P3NC+lOE+0P4H+Gj6U4T7Q/gf4az+MC4ubDmfCiUAEgG45GjssPMXv/U1dR9H7mgfSnCfaH8D/AA0fSnC/aH8D/DWe0UdlgJ3/AKnwj6P3NC+lOF+0P4H+Gn2ztpRTgmJswU2OhGp15gVl9XLcHyJfvL/Kajy6eMI2i7s/a+fUaiOOaVO+S8vzLNM+UE8bVCSOWNzxNWCoTEQEFtNAfz1FVYm7mTJDZu0QiIG1COfwvZuHOxU+2pDaGNDOZUa4AGXK1iOvHUa3vVbhTMwW9rmnGOlWErlF7g3F+PQmtHTahucYNWuRzm0tn41jnqLquL8yY3etJIzOq5VK2BAPfYmza9Ap18RWgS7bijQGU8TltYsTzOg5ADWsh2XtjssxKXDAA961rG99RrpmFv2qnMHtwOykd4WKEMOKHlpzHUa1KsThjdriY+p1GPUZ7g7VJcqNMi2rGMP2ykBO9ax4m5HL0Uy2Ni3N8Qy5mYZYkOgVL3aRjyzEC3OwuNDSWEjQrBls0a6AAaXZC+f3j2mld4sXNHFmhsWzC6sCcykEWFtb3t14VDKXAjjBWQW8iv2glL5irBGAFlUuGeyDlYL6Tzpht7B5HDqO5KO0Tpqe8vqP5ikcJiZGSRXFg0iOBxysA6uL6ad4Hhz5VP7Kg+c4aTDH9ZH+kiv14Ovov/N4VHOG/jNLQ6rs2e39l8H7lTor1havKonZriFFFFAoU22hjEhjaRzoPaTyA8TThjas83l2x28llP6NCcv7R4F/7eHpqXDi35eRnbS1y0uK19p8vf5Efj8Y80jSPxPLkByUeApvRRWolSo4WUnJuUubCiiigaFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFe0AeVctwvIl+8v8pqm1ctwfIl+8v8pqDU/ds1Njf7kfn9GWsCucvGlmSkyKzTuFxIzEwIrqeAJ1H9rVC7VxnaSlYyO6ALnX3cze9L7a2oiufrNwCjjbx6Cq80MkrmRu54DT0evxNaGihJS3qOT2/qMcsfwYyXO2v/fQePgr6u5PpI9wFhUns7Bx2vFLZ+eua9uTLzFQ0Uaof1pP/cPfoalTtKEgAxoxH1itmv1BW1q0riczjjKi5bt7wtGRHOcozAh+KE5cljzGnC//ABPYxy/G+tiNeI5EEcR4is1wmMLAhUdwOIF5LDxupPtvUhs/eCTD6CMvD9aF8wsDxZGIuje7qDVbPgUuMWXMOdxfFFoknCsysGuSDc2tc878efuqW2gGwpSdDYsUYDqCgZwfAkWqC2fhoZ1MmGcvGNXS36eIc8yX1H7S6einO2tsNiMoIAVBZRzAtaqMskoRcX8joNNo8WacJw4r/t+yE94AnbyMnktaQeGdQ9vaai+zHj7TSsjkn2D2AAflXNVW7dnRYYOGOMX0QUUVFbw7XGHjuNXbRB482PgP7URi5OkGbLHFBzm+CIjfHbFgcOh1P6wjkOSek8T4emq3sbZj4mePDx+VIwUHko+sx8ALn1UzdySWJJJJJJ4knUmrd8mGEEmLJZmVVQglCVPe8nUG9rqPZWpjgoRpHBazVz1OVzl8l4Ijd8NgnB4gxjMYyC0bNa5AYowYgWzB0YG3Qdag62P5XsADs2GWxZ48UVznj2csTO3qLBD6qxynp2VWgoFFFKIek15RRQAUUUUAFANFFAATRRRQAUUUUAFFqK7SgDi1e0uqA0my0AchvR7BVx3Da6S8PKXkByPSqbVy3B8iX7y/ymoNT92zV2M/8yPz+jLixFNpZAurf56KVvULjCcxv1Ps5Vn8zspS3UQe1sTGjtlW7m2p0Cjl94+4ePKElxdzbVj7qsO0MAr98qWIFsoNgddLnjUHNEb2IAHJVFh6BatTDk3oJLocPtHTfDzSlLq7Q0bFNyUe0mpDYSdtIFdhGo1Zhq1ui30vTzY+wDO4S3pA0CjqxHE1esZs+DBQoscakhg7kgZ8uozgdAf689ala8TNeRXSJTAyiGNVTupbuqBbTq3O59uutOotoZvDwH9+dRKbfhghZ8QykMTbMuYuw+qhB0sLEW8/11UhtzFYhssCmNeFwe8b8iw58NF9tRPgTx48i3ba2M2b5xhn7HFqC6gEKZwOIy8e0text3tQdbGkcPtWPGx9ugCTqB28Y0BvoJ4x5pJsw5EjkbmIxm7mLjjV2cHMRmAY2Uk6FwOGvME613LgLESRHJMuocfWNtRILd4NqDfjc34mq2WUGt1mxs3DqFJ5cfTp4+Q+NeA0nBMWHeXI31l4gH9k816H1HUUpVJqnR1uPIpxUkI4zFLGjSObKouf6AdSeFZrtPHtPIZG56KPNXkP853qS3q2z2z9mh/RofxtzPoHAes1BVoafFurefM5DbG0Pjz+HD7K/VnEtXb5O5uyinmtdiRGoPNlGYC/TvknwWqPJxqf3OxUglSNBmBa+S1yS2UG3U91fZVhJt0jGbSVss2NxzHB47CyuWJZZlLcp4XXtQByzIGFuAyDrWf2q6747LmwxkLKxWRmLMRopkLFVJGgOh9NqpVLuuLpiKcZq4hRRRQAUUUUAFFFFADvH7MlhWJpFss0ayxtxDI3j1HMcrjqKaAVvWB3Yjx+xMJC1lcQI0UlvIky6H7p4EdPECsM2hgpIJXhlUpJGxVlPIjp1BFiDzBBpsZWK1QhRRRThAp3s3Zks5k7Jb9lG8zngFjjUsxJ9VgOZIpHC4Z5XWONS7uQqqOLMeAFbvhd1E2fsbGR6NM+GnaZx9Zuxeyr+wvAes86bKVCpWYGK9U15QKcIKo1L5L02WnEbEaUAIvEav8AunswwxEls3aBX4Wy93hx141S1NaRss/oYvuJ/KKraptRo3dg44yzSk+aXD58Be1RuKw4BLE2BOnMmpOmO1JbDLzPuH+flVBHV5KriV7auOyAKvE8efd6H08PbXWEwgCKQoL5b666sdP61AYqTM7MebHToOVWPZ57kRQm7EKefIZuPC1ifXWvggoKjgNoah58jl05IvW7WyxCoVVzSMATbx1uTyW1rfep9tjZcWIAWTvFfrKSuU9I2GvpPO3CnmHxsZw5ZWWK9g5JsbAWsLanQAAdL1WcdtUuTHCxy8M1sun7Ivw8amaM2Ud3iii7w7KEWIC9q0yoALm941vqvm3Hh7BV52Fho40V1A4aeA52qrbYUKpA6gVoGx8NG+HiYLbNGjG3VkBJ9tVdRHkXtHO07HEGaUhF7xIay9bITbpra1VllI0IsRoRzB8avm6WAKz3PBVNj1JsNPUTTXfTYoI+dw6qwBcDx4P/AH9vWqU4Nxs6HZmshiy/CfKVcfMpZFVne/bORewQ99h3iPqqeXgT+XpFS23dprh4y51Y6IvVv7DiazaWUsxZjdmNyTzJp2mxbz3nyLG2dofCj8HG/wC58/Je7OaKKK0DkRORedTu4+0/m2MjmC5suYWHipW/qBprs7Y7zWPBTz5n7o/rUo+Pw+GBSFRJJzP1Qf2m4sfAaeihOmDVqi8fKFtT5zh1SFGAPl5rILBlZVa56gHwyjrWaJshybBo7+D3/IGpTeDt8Q97vICQRcZVAKgiw0Ao2ZsZ4zmJUNwGma3o4a+2llPeI8WFYo7qIHFYZo2yta9r6aixpIVbf/o0V8zB3J4lmOvqW1KHZ0Q/0l9l/wA6bZLRTaKnNrYFAhZVsRbhe2pA4VB0tiAKKKKAPpn5Pf8A8Zg/9hPyqvfKvuV87i+cwL/1ES6gDWaMa5fFxxXrqOYtA/I5vnbLs6dtNfm7H2mE+8r6x0rX6gdxZKuKPkUGgmtN+V7cvsXOOgX9E5/TKB+rkY+WP2WJ16N97SI+TDYeGmn+cYuaJIoWGWOSRFMsmhF1Y6ouhPImw61LvcLI640Xn5ItyuwQY2dbTSD9ErcYo2+sRydh7FNuZFXTfMf/AG/Gf+mxH/wvSybwYP8A/bw/76P4qzr5W9+UKfMcLIr9oP00iEMoQ/6SsNCW+t4ac9IlcmScEjHgleWpWvVF6nIjmMUqBrXJFjTqGxGo169KAEHJrTdj/qYv9tP5RWZyDXqPzrTdkH9DF/tp/KKq6rkjoNgfeT/L9xXPYX6a1EzXY3Ot/dUqy3B9FRsJFUonS5uhWZdm2kYHhcn2k2/OjBT9hL3rlRcgdSRYf54VYGiM0gVNbD33tqaiNuYMr5QIZdCDxrTx5baOG1emUJSSd8T04tnbtGcG31AcqgW4G/GpHC7TWTQd028lbAeo8/8Amq7hcE7tlVST7hfgSeVWvZm7cSWaVyW6KpIHtqyrMyc4pcRlLHmuCeNWvcrGt2YjY3y3T1DVfdamGPwZXWKJwh4vlZmN+IuB3V9HHnXm7ERMxRATccB5y6+2xPspmaFxF0mWp8eTNMwDmN4yeBIHqOhpXZWPEZlhcXXPJYcbAubrbpUdFMVsCLjTQ8v7GkNrbZggeRpXCkkNl4tZlB4DXiTVbErtF3UPdpopHyh7gTSzdthGEkZsBCxyNF1ylu6y314gjhryqz/J9NEufFYjD4ZOpYu3qUABj6DVg3i+VHimFT/3vYn1DUD3+qs42htGWdzJK7Ox5sb+yp1FRVIryy5Mkm5er5j/ABkuCjusCPiG+1nJRPSkKWJH329VMtmRq0qhhcG/o0BOvhpTSpbZCa91Q7MCLHyES9iW6nTh4+NAo7lxEsoKQ92Pg0h7oYdAengK6wOzoIuP6RvEd31L/e9LbSxSxABu89tF/qQPJFQT4p2JJYjwXQD2Ug4tEm02NhyGg52FrWpB8U551V3lbzm9prkq1rnh48/R1ooSyzGVupoTEsNATVWtSscrg6E+2/uooLLLNOLWfnp7eVVidLMwHIke+n+MxBGVTxFiR48hUcWubmhAzyiiilEPVYgggkEagjQgjUEHka+g/kx3yGOh7OU/9TEAH5dovASj08GA4HwIr57p7sTakuGnSeE2kQ3HMMPrKw5qRoRTZRtCxdH1RicOkiNG6hkcFWVhcMpFiCOlq+cN/t0WwGJyatBJdoXOvd5ox89b28RY89L+Plqi54OUHmBIhF+djaovef5S8JjsM+Hkwcovqj50vHIL5XGnLmOYJHOmQUkx8mmZiqil0W9cBqUjepSM8dbV1Gtta4dtaVz0ALRxZqcJFyrzDWtXJk1tQA1xMZHGtH2Sf0EX+2n8orO8Q1xWhbLH6GL/AG0/lFVNXyR0P9PfeT/JfUeConErZiBwqaVKh8Yvfb01TR0mVjzd9e858F/Nqdb64ZSga3eGUX6hjwNNN3fLYeA9x/8ANO96ZrqB1Yf9q1Zg6OX1WO87j5/Ua7l4vCRxN2mIhSRmvlZ0VgqiyghiPE/+6rA+2MJe3zqD99F8VZbgIhlLAC5vy1Op0v6Khsfh2F7k3HX+ta8o0rOUjj35Pmb429OBjjGfEw6eY6ufYlzVYx+++B+cwzJmzowDPoA0Z0YEXudCbVjoPWpTC4ewuf8AxTFIk7Oo8bN/G0hKt7AHXhz8D/es7383Xx2In7WGF5YyiDuFTZlBUgpfNewHLnVm3UhdogbcVR/U6BgauuzsoAF9bajxtxtzqh/cpWast1wo+XJsMykqwKspsysCGUjiGU6g+BpErX01tndvCYvTERB24dtHYSr01A1A6NcVQdtfJBKpzYWRZl81iI5B4eafd6KmUiCUTIhVm2VAY4Qyn9JJrfzU1At48/XT5fk5xxmEbxGIG/fkDdnoCbZlBF7A13j93pcBMExMnaRIRnOHZituUed1srG1rC9r+FOdjFQwwG76sxlmclb6DXNI2t8xvwGnpzDoa4wu7zyyFV7NNGfLnJKRrqWa/AAW1J4kdaN4NsJiJxJYxx2CIkJH6KNRoFvbNqSTci5J1FT+wIsFDDLGuLZpMRHlY9iUKIDdksWPeYG+a5XujjaxjbaJlFOkVeTZREJxCoTGDYSS5UDtcAiGMm72vqdQLa2OlQ0jkm5N6m96drLKyxoLRxKEUA6ALoADzt15kmoSOInhw5ngB6TT421xI5pJ0jmu42trzHAePU+FJkUU4Yeu19edKxYSRkaRY3ZEtndUYol+GdgLLfxpGr9uNh3k2VtSONSzucOqqOLMz2AHrpG6FSspGDwUspKxRSSsBmIjRpCF4XIUEgeNeQ4OVkaRY5GRPLdUZkS/DOwFl9daXJgHwqJsXBENjcTY4yZeESWuYw3JQp9h6uLT22cGmF2btDZ8URWODDQuJW44h5mftH00sCgHhw4AU3fF3TF5sLIgVnjdA4zIXRlDr5yEizLqNR1rvZ2zJ8QxSCGSVhqRGjPYdWsO6PTVv+UEf9Jsf/0Q/KKnu3NpzYDZ2z4cGxhGJiOImlTR5JCE7ubiAM1utgo4cV3mJRQMdgpYXMc0bxONSsilDbrZhqPHhUgu7eOtpgsV/wDzTfBVskx0mP2HinxRzy4OSMwzMBnIkKhoyfraH3r0q+Yo4uXa6QJipIsPFhYp5IkIzSasCqLa5vZbkcB4kUjkxaMQOycT2nY/N5+1tm7LspO0y8c3Z5c1vG1qaoDe1teFud+Frda1XcvbT4zb0mKKZAYJVRTxVECBQ/7XM+Jtypjv1u4zww7YSBoRKqSYqG1zGzf6wA+q3PnqCQLtZd7jTCigYzByxNkljkiawOWRGjax4HKwBtodfClYtk4lygXDTtnXOmWGRs6C13Sy95NR3hp3h1rYN9Fw213fCxMoxUUaT4WS4y4iGSMO8d/Tr4aHk1VbfLH4nCYfZDRSPBKMEyNbuuP1OZWBGmo1HhRvBRVm2Ni40LyYXERqOLSQSoo5asygCkIkq/fKVvHioxhI1ncJNgomkW+kjOCHLAjUms+hlvpSxdoRjyaFSt6vuzoB2EX3E/lFUFOYPOtEwLXhi+4n8oqvqeSNzYTaySrwOY20qO2jH3j6vyp9HTPHt3vUKoo6fKjjYz2lt1BH9aV3ibvIPBj+Qpns2TLJmPAH3WNV7erGsZ2IZhfKQt9AAAOHja9WoQtUcvn1G5neSr4/QlY1A4AD0ACq1vLOO0yrqxAzeH/m1qdYDaMhW5sdbC/E9df+ahsSwZ2JGt9SKnw4pRe82Ra7X4s+NY4R6+gjHBpxtUhhpQONzTZU4Aak8APz9HjVj2JsRMoeXVjwW+g6XtxPuqxF1zMmUbJPZG92IjAUSd0AKAeSjgARrbp0q97S2tHCIGMrss0YlR8qlT5y2uCCNOvEVnG1NgjNdBlHXlm6WqfSdJtmjCPpiMKWljJ/1IjdpVU9VHet0TwNPlJWrRHutJ0zQdlb14eSwzAvzOVxr6ba1ZkxMBAZmUeu1fOCbWMfktbxrl96JSdXa3pqR48UutFZT1EXw4n0BvDtuBYxZ1NjmNjeyqpv/T21i08zYqGeJmVbhMvaMFUMjF9WPgvvqv4nemVlKBiFPHxqGxW0ZHXJeyXvbqeFyedK/hQjuriJGGaUnKVLl+gzMx4ch/mldBjz514EFdCqlF62KRhRq2vgNPaeVezTFvADgBwHqrgV5SiHlFBooAKtu5O+zbOixCJFnklylGLWVGUMAWW3e8q9rjhVSooasC1bG3uOHw+IWNG+eYkntMUz3YISSRGttCbk3vxN+QAdYLfmRdmS7NkTtAy5IpM1jGlwcjAjvAW01GhtyqoRCnezME00gQaDizclUcSaa6Stj8cZTkox5suSb54J8NhocTs4Tth4ViVmmKjRQCbKNASoPOmWyN74+w+aY7CLicOrM8QVmieAsSSsbXvk10FwQNLkaCIGx74p4FJypYs5topVSSeV9bCvH2SolmzSFIYSAXIuxLAEKoHE6/lTN+H7lnsefw6tfNc/kq5khvPvSs+HXBYXDrhcIpzZAxd5Hto0rHjb1m4BJOlne2N8Xmx0eOhUwvEkaKM2e+TNe+gurBiCOlV/EYGMxNLBIzhLZ0kWzgHgwtoRUgmycOHSIyTdo6q1lCkWYXve2g0NHxIoWOiyydKunG1TvlT+RP4ffuGPaJ2hHhCpaNlkiEgytI9ryKcndvbUW1OvM0zwW/0642XFyASpMOzlgY9xorEIi3vly3NtNbtfyjVebZ6ZZXV2YJMsS8LFSVGY6cdfdSeOwapiDCCbB0S5tezZbnhb61KpRZHPTZIK34/W/Zib4sxz9vhs0IR88QLZ2j1uFzWGYC5Go1HG9zU1v1vidpGBmiETRIytZswZnyElRYZRdeGvGo/amDw0RdA8zSLpYhQt/FsvDWoUKaWLUuKGZsUsUt2TV+Tssu828q4w4cmIr2OHSDRwcxT698ug8PfUHBc8K8SHrTjDd3W1PSohHbNpfpV83exySxKEJuiqrXFrHLy68KzVpTarduJKckuv1l/I1BqEt2zW2NkktRuLr+3EsaA+HvqLdmYk6cT19VSYaopGsx9J/OqCOtyo6wycb/5wqq7zreY2+zH8xq1NiVUEk2H/AJqA2wBnLfWbu+hQT+Z09Rq7hjvNHHbQahOS8yHxGPRY7IdbWFxYgniSPfTTZuDaTU6J16+A/vTz5l2j20Cgam3EngBT0wOFEegFrX1IC8wLa3t4HjV7jVmZGlwJfc7AQNIzSx5oRG50cx5VX/ULDVteV6kt3dpQHKzZo0JIDSDuBQeb2yg8tbcKZyuI8OsA7rTkZtRcQx6kXBtqbDTxqwbobMEqsZO7GDYFR3y1r2HLKNOIPGki64jmKbamjD2UL2bXNl4EHW6ngKhzgJcyzwMJuzZXyqLSjKQSGi4sp4HKWFib2pLbu7phfKsilmDOBGSHKX1Z4iLcSNdfTTXAbRngimcNk0Re0HA5iTY31XyT1FMyNvkPhREbd2UIp3QX7O+ZCb/q2GZPSQDlPipqDnjF6vO0tpxYuPNiZsrRqBHIsYkZwcxtKQwYrfmASM3DrSpIyRm93So4t1xCcUnwGTLXlduTXFPIwopTs6MlAHFFegV4KAOlWhlroGhTYg+I/OgEJUUpM+Zi1rX5DhXNAr5i8Nra1MTSJHGIIWDFiryyKQQ2uiA+aP8AOJqDQ6jpUnClwbW5UyUbfEnw5XjT3eb6+XX1JTbe0E7TLCRZ3R5XB8rLlCqD5oAuf+aSxWJikfEws4VZHWRJB3lzKqizW5G3H01FPHXUAsQbA25H0Uz4KS4FmW0Zzk3JKm+XSqar9W/zHj9nDDKqyLLJKuTuaoqcyTzNSSSR9skwxMIXslidGYXIsb630OvuqvykEk8L625U3kFDw31DHr9x0oqlVLj0bf63xJRXiSGaJZFIGIQpqLsgKd4dQLcfCl9rJEcR264iJgZYzlU3YAFQSSDoAATeq/avaVYqd2RvWXHdcV5c+FX7lm27OZBJbFwtH5SxDLm04AEak3qvJa9JXroNToQ3FRHqtQ8899qn+bf1FWalIHA1PCmualIpCCNL2N7GnldcwnkW/P3VatxGGSW1/KXj6DVQne9za1zy5VbNwfIl+8v8pqDUfds1dj/7kfn9GWwCozEJ329P561KLURtXEBc79OHieA99Z8Fbo67USUY7z6ERvDicq266eri39vXUCMYzHvG5sPZYW9dd46Qu4XymPdAFyzNfUADUm+nqFXDYnyYzSBZMXJ82jsO5oZm9vdTlxufAVqwSSo4HUZHkyOb6sqsEhJAW5J5AXJ9FqncJsjEyiww0rDxjYD2kAVqGyMHhMGhTCxAE+U5uWb7zt3j6OA5Uz2zvSkIPaTKh80WzeoamnqTRFzKXHuLiGcSYjOiKAAzSR3VQScuragknj41aJt8sNDHaZSWUDL2Vjc8CoN+GlwddCKrM29STlimXugsXl1ew4lQaqbYgzS5nJPPXWw6flRzCqHO0saZnfEOTndr/cXgig9ALC/hU1tfFR2w0IzurrH20oOZ5HbiLE5e4CbE62JvTHZ+CifEQKwvG0iqwueDGxseVJbxYXLM0cRHdbIulldie6QB5IsQbG/O5NK10FTG2H2QzLaMfrZI417rCPM11YZytlIJW4B4EG1tahXzKSpFmUlWB5EGxB8QRU4u2XWHBqHMXzYllZc2V2L52ksTlZwdD11B403XCRzlj2oSRiWGc2SVyS1ix/Vsb8T3bkXK8ajdjuZCsL0nlp1jMM8bFHUqw4qwsRTdTTkxjAUMOdKstJseVAgmK6r0V6RegDi9ANdFK5AoAVQXrxxRGaUCg0AIgUvC9qbuNa6WgBy731ohW9IKKWjoAWcL402cUqK6EfOgBqwtRau5Vrw8KAEyKAK7vpQq0AeAV2tLJFaumw/SgBrImnr/AKVa9wR3JfvL/KarIW3GrZuOvdl+8v5GoNR92zV2M/8AMh8/oywzyZVJ/wAvTXB7KOI0JyR83Nx+DLqzej1kVLJh4SoLsGN9FuMo/abqeg4db06jdToGX2ioMOF82ae0tqxTePGr6X0/kV2RhMNhFy4WIKx4zSWaZvXwQeA9tOMTjlVTJM4VV1LOeHpJprisRBChlllVVXU6j1AAak+ArKN6t5JMZJfyIlP6OPpyzP1c+69hzJuqKOZcm2T22t+pJGKYYmFb2Dkd9x6/1Y9p9HCqZMr5iXuWOpLG5bxJPH00lHKQb6H0gGn8eJRlswy+jVfZy9VOoBuV4VI4TKF46n+lRsgtz05HwruKYAg3/wA50sXQNFk2ROBNFrYCRDc8BZhSm2mLSOwPeK29DZSpPsHvNRgTmPaKfRThmzNoeB+9z/zxp1WMTo62ybrhZVBJVIlsdQzKLg25ZgbHra/Emq/tGNVdkS5A68+pXqtwQPAempV8QeFxlUAW+7YA+6/rq5bqbLwuLwk0E6r22HvLE2bK2uroGBF1JA04XN6jyS3eJNiW86MylxMj2LuzZVCLmYtlRb5VW/BRc2HDU0PEBlOYG4v6PA1fvo7gvMH7xvipP6OYPzP4j/FVVamPma3cud9Y+r9ijsPEU2fjxvWkNu3gsvkj943xU3bdvBeZ/Ef4qd2mPmNWxM76x9X7GfrSwIFXkbuYPzP4j/FXv0cwfmfxH+Kk7VDwYvcWo/FH1/goLveuFF60D6N4PzB+8f4qBu5g/M/iP8VHaoeYdxaj8UfV+xQz4V0kgHpq9HdzB+b/ABH+KvPo3gvM/iP8VL2mPgw7i1H4o+v8FDmQBrBg3iKAavo3bwXmfxH+Kvfo5g/M/iP8VJ2mPmD2HnvnH1fsUeOlpAAauq7vYPzP4jfFSp3ewZ+qP3jfFS9pj4MTuTP+KPr/AAUVNdKVlYjQcqu0e72DvfKP3jfFXp2FhPNH7xvio7THzE7kz/ij6/wZ9I/WkzWgNu7g/NH7xvirn6OYPzR+8b4qO0w8xe48/wCKPr/BQ4kuQL2149KVdAGIvcDmOdXld3cH5o/eN8Vdjd3B+aP3jfFR2mPmHcuequPq/YpaMLUorg6Xt4nlVxG7+D83+I3xVy27uD83+I3xUdpj5gti575x9X7FCxPlEA3seI51bdwvIl+8v5GnY3ewfmfxG+Kn2AwsMIIjsoNie8Tw4cSaiy54yhSLug2XlwahZJNUr5PyP//Z"
+                            alt="Valo">
+                        <div class="card-body bg-secondary">
+                            <h5>Valorant Mobile</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                officiis accusamus
+                                nostrum nemo eum illo fugit impedit deleniti deserunt architecto ab dignissimos pariatur
+                                temporibus aut
+                                quis assumenda recusandae, voluptates eius.</p>
+                            <a href="" class="btn btn-outline-light">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100 text-white border-0">
+                        <img src="data:image/jpeg;base64,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3q3AE0s4R7YyB0VQpxLsAGents+oVMTRCFUUtIgbyExjrg8gc8qj7HtN06OJEFlPFhUBSGK22AqMYB3jIHPmR41ya/2hafcw92IruIh1ZZO5t22svTl3ormy1Wr4ns46XX+smGspc1z+QNXjgk0t5jLIImES980Yd2ZJMDcA3v1wT4ZNZbI2aummcU28QijN1em2jaRmgitbSPvd7mQh2Mp/KPm5DpjrVU1y8jmubiaKIQxSzO8cIxiNScgcuXycudXY5ydqSoyZMzySujgY02xpbGmmpmUyYmjEhFJNJNVsrYpnzTlofKHrpinImwaVrkQapwndhVGaty64gHWsi0/Vdq9ae+zZ8/8AGuPl0jnJs0xy0iubqUDTW6lA16CxUxylKaQDR1KYw+ppatXODS1anTJTOlWpYaucNS1anTLEzoBpYNc4alhqmybHqMGm80YapsaxzNCkA0eakLFUKLNDNBIdCizQzQAdCk0KCBYelpcEUzmklqGTuaH5Zyetc5aiJpBNKK5WGTTTNQZqbZqhsVsDGmnNGzU2arbK2wjSWNGaQxpGxWIJps0tjSDSMqbCNIozRUjEBR5oqFQAsOaPvDTdCigOorSgtChVqLUGFpYFChTodB4owKFCpJFilChQpkMhYpYNChTJjIUDSgaFCmGFUYoUKkkOjzQoUADNDNChQARNETQoUAJLUkmhQqCBJakFqFClbFbEMabZqFCkbFbGyaI0VClEEsabJoUKRisQxpJoUKRlbE0VChSigoUKFAAoUKFAH//Z"
+                            alt="Gta6">
+                        <div class="card-body bg-secondary">
+                            <h5>GTA6 ¿Lanzamiento?</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                officiis accusamus
+                                nostrum nemo eum illo fugit impedit deleniti deserunt architecto ab dignissimos pariatur
+                                temporibus aut
+                                quis assumenda recusandae, voluptates eius.</p>
+                            <a href="" class="btn btn-outline-light">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+                    <div class="card h-100 text-white border-0">
+                        <img src="https://cdn1.epicgames.com/offer/fn/FNECO_36-10_ForbiddenFruit_EGS_Launcher_KeyArt_Blade_2560x1440_2560x1440-abce17aa0386b48069aa42c1ebf7b864"
+                            alt="Fortnite">
+                        <div class="card-body bg-secondary">
+                            <h5>Fortnite Nueva temporada</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
+                                officiis accusamus
+                                nostrum nemo eum illo fugit impedit deleniti deserunt architecto ab dignissimos pariatur
+                                temporibus aut
+                                quis assumenda recusandae, voluptates eius.</p>
+                            <a href="" class="btn btn-outline-light">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Resenas" class="bg-dark">
+        <div class="container">
+            <h2 class="section-titles">Reseñas Recientes</h2>
+            <div class="row mb-3">
+
+                <div class="col">
+                    <div class="card h-100 text-white cardResena">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://www.minecraft.net/content/dam/minecraftnet/games/badger/key-art/Homepage_Discover-our-games_MC-Legends-KeyArt_864x864.jpg"
+                                    alt="Minecraft" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>Minecraft</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. nihil repellat,
+                                        eligendi magnam minima
+                                        laudantium totam. Harum, possimus?</p>
+                                    <span>⭐⭐⭐⭐(4/5)</span>
+                                    <a href="#" class="btn btn-outline-light">Ver analisis Completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 text-white cardResena">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQuWtrVPndR6RkgCykQnil9e0jo8uIKAuGug&s"
+                                    alt="Silksong" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>Valorant Mobile</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. nihil repellat,
+                                        eligendi magnam minima
+                                        laudantium totam. Harum, possimus?</p>
+                                    <span>⭐⭐⭐⭐⭐(5/5)</span>
+                                    <a href="#" class="btn btn-outline-light">Ver analisis Completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+
+                <div class="col">
+                    <div class="card h-100 text-white cardResena">
+                        <div class="row h-100">
+                            <div class="col-md-4">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9X1souoUyUzZCRW54sEPywJaTNHKOhYcKw&s"
+                                    alt="Silksong" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>Hollow Knight Silksong</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. nihil repellat,
+                                        eligendi magnam minima
+                                        laudantium totam. Harum, possimus?</p>
+                                    <span>⭐⭐⭐⭐(4/5)</span>
+                                    <a href="#" class="btn btn-outline-light">Ver analisis Completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 text-white cardResena">
+                        <div class="row h-100">
+                            <div class="col-md-4">
+                                <img src="https://es.egw.news/_next/image?url=https%3A%2F%2Fegw.news%2Fuploads%2Fnews%2F1%2F17%2F1745223379552_1745223379552.webp&w=1920&q=75"
+                                    alt="Valorant" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5>Valorant Mobile</h5>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. nihil repellat,
+                                        eligendi magnam minima
+                                        laudantium totam. Harum, possimus?</p>
+                                    <span>⭐⭐⭐(3/5)</span>
+                                    <a href="#" class="btn btn-outline-light">Ver analisis Completo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="TopJuegos" class="text-white bg-dark text-center">
+        <div class="container">
+            <h2 class="section-title">🏆 Top Juegos Populares</h2>
+            <div class="row mb-3">
+
+                <div class="col-md-4">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSx6TbSCvUzbHWaQ9Q3kYOV1Kusxeu7IRDww&s"
+                            alt="Valorant" class="card-img-top">
+                        <div class="card-body">
+                            <h5>#1 - Valorant</h5>
+                            <p class="card-title"> Uno de los mejores shooters</p>
+                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-warning" style="width: 100%">100%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad Global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS125Eh92mj-QyFcuHrFnFETGZAZjyG-4UUsg&s"
+                            alt="Valorant" class="card-img-top">
+                        <div class="card-body">
+                            <h5>#2 - GTA VI</h5>
+                            <p class="card-title"> lanzamiento pronto?</p>
+                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-info" style="width: 93%">93%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad Global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9X1souoUyUzZCRW54sEPywJaTNHKOhYcKw&s"
+                            alt="Valorant" class="card-img-top">
+                        <div class="card-body">
+                            <h5>#3 - Hollow Knight Silksong</h5>
+                            <p class="card-title">Silksong Rompe steam</p>
+                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-danger" style="width: 89%">89%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad Global</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 mb-3">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="https://www.minecraft.net/content/dam/minecraftnet/games/dungeons/key-art/Downloads_Box-Art_Dungeons_600x337.jpg"
+                            alt="Minecraft" class="card-img-top">
+                        <div class="card-body">
+                            <h5>#4 - Minecraft</h5>
+                            <p class="card-title"> Uno de los mejores Mundo abierto Tipo sandbox</p>
+                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-success" style="width: 85%">85%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad Global</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <div class="card bg-black text-white border-0 h-100 shadow">
+                        <img src="https://www.dexerto.com/cdn-image/wp-content/uploads/2024/09/27/cod-warzone-bo6-integrate-early.jpg?width=1200&quality=60&format=auto"
+                            alt="Warzone" class="card-img-top">
+                        <div class="card-body">
+                            <h5>#5 - Warzone</h5>
+                            <p class="card-title"> Mejor battle royale </p>
+                            <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar bg-secondary" style="width: 80%">80%</div>
+                            </div>
+                            <span class="small text-muted">Popularidad Global</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="Entrevistas" class="bg-black text-white">
+        <div class="container">
+            <h2 class="section-title">📄Entrevistas Exclusivas</h2>
+            <div class="row">
+
+
+                <div class="col-md-6">
+                    <div class="card h-100 text-white cardEntrevista">
+                        <div class="row">
+                            <div class="col md-5">
+                                <img src="https://i.blogs.es/5a542f/tenz-valorant/500_333.jpeg" alt=""
+                                    class="img-fluid rounded-start">
+                            </div>
+                            <div class="col md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">🕹️Tenz</h5>
+                                    <p><i>"Precision que enseña y domina"</i></p>
+                                    <p>Ex-pro de CS:GO y figura admirable en Valorant, Lider en horas vistas durante
+                                        2024 (Más de 45 Millones)</p>
+                                    <a href="" class="btn btn-outline-light">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 text-white cardEntrevista ">
+                        <div class="row">
+                            <div class="col md-5">
+                                <img src="https://img.redbull.com/images/c_crop,w_6000,h_3000,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2024/3/26/rk4ji5seznhmsd7pzgje/tarik"
+                                    alt="" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">🕹️Tarik</h5>
+                                    <p><i>“Entre headshots épicos y memes, Tarik reina en Valorant.”</i></p>
+                                    <p>Uno de los jugadores más influyentes de Valorant, combina alta habilidad con
+                                        contenido educativo y viral. Aparece en muchas listas de los canales de YouTube
+                                        de Valorant más destacados.)</p>
+                                    <a href="" class="btn btn-outline-light">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card h-100 text-white cardEntrevista mt-2">
+                        <div class="row">
+                            <div class="col md-5">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg_RyxpIuxEn8uDzgCzAo5kt0b5yrBoAhXdA&s"
+                                    alt="" class="img-fluid rounded-start">
+                            </div>
+                            <div class="col md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">🕹️Mixwell</h5>
+                                    <p><i>“De jugador a constructor de futuro: Mixwell forja camino."</i></p>
+                                    <p>Ex-jugador profesional español que migró al streaming de Valorant. Segundo en
+                                        horas de visualización en 2024 (~17 millones)</p>
+                                    <a href="" class="btn btn-outline-light">Leer más</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="Suscribete" class="bg-dark text-white text-center">
+        <h2 class="section-title">📯Suscribete a nuestro boletin</h2>
+        <div class="col">
+            <p>Recibe novedades y noticias, lanzamientos y demás</p>
+            <form action="" class="row justify-content-end">
+                <div class="col-md-8">
+                    <input type="email" class="form-control form-control-lg bg-black text-white border-secondary"
+                        placeholder="Ingresa tu correo electronico">
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-danger">Enviar</button>
+                </div>
+            </form>
+        </div>
+
+        <hr class=" border-secondary m-0 mx-3">
+    </section>
+
+
+    <section id="FAQ" class="bg-dark text-white">
+        <h2 class="text-center">FAQ</h2>
+        <hr class=" border-secondary m-0 mx-3">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-black text-white border-0 h-100 shadow">
+                    <div class="card-body">
+                        <div class="text">texto</div>
+                        <div class="card-subtitle text-muted mt-3 text-start">camila r de la sona</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-black text-white border-0 h-100 shadow">
+                    <div class="card-body">
+                        <div class="text">texto</div>
+                        <div class="card-subtitle text-muted mt-3 text-start">camila r de la sona</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-black text-white border-0 h-100 shadow">
+                    <div class="card-body">
+                        <div class="text">texto</div>
+                        <div class="card-subtitle text-muted mt-3 text-start">camila r de la sona</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class=" border-secondary m-0 mx-3">
+    </section>
+
+    <section id="FAQ" class="bg-dark text-white">
+        <div class="container">
+            <h2 class="section-title text-center">📞Contacto</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item bg-black text-white">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button bg-black text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                    aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    como puedo instalar corrctamente el juego?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-black text-white">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-black text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                    Como puedo cambiar mi usuario?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item bg-black text-white">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-black text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                    como participo en los sorteos?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <strong>This is the third item’s accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container-fluid bg-black text-white 5px">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="Danger">Sona gamer</h5>
+                    <p>Somos un equipo dedicado a brindar las últimas noticias y análisis sobre videojuegos.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="text-light">Navegacion</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#New" class="text-decoration-none text-muted">New</a></li>
+                        <li>><a href="#Resenas" class="text-decoration-none text-muted">Reseñas</a></li>
+                        <li>><a href="#Top juegos" class="text-decoration-none text-muted">Top juegos</a></li>
+                        <li>><a href="#Reseñas" class="text-decoration-none text-muted">Resenas</a></li>
+                        <li>><a href="#Entrevistas" class="text-decoration-none text-muted">Entrevistas</a></li>
+                        <li>><a href="#Suscribete" class="text-decoration-none text-muted">Suscribete</a></li>
+                        <li>><a href="#FAQ" class="text-decoration-none text-muted">FAQ</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4">
+                    <h2 class="text-light">siguenos</h2>
+                    <div class="d-flex">
+                        <a href="" class="text-danger"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr class="m-0 border-0-secondadry bg-dark mx-3">
+                <p class="text-center text-muted small py-3 mb-0">&copy;2025 SONA Gamer.Todos los derechos reservados</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
